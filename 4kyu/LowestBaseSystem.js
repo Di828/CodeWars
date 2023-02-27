@@ -9,9 +9,9 @@ function getMinBase (number) {
     }
     
     return base;
-  }
+}
   
-  function onlyOnesPresentation(number, base){
+function onlyOnesPresentation(number, base){
     while (number > 0){
       if (number % base != 1){
         return false;
@@ -21,7 +21,4 @@ function getMinBase (number) {
     }
     
     return true;
-  }
-
-  for (let i = 1000; i < 2000; i++)
-console.log(i + ' ' + getMinBase(i));
+}  

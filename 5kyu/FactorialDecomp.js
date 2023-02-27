@@ -60,5 +60,3 @@ function timesIn(n, x){
   
   return result;
 }
-
-decomp(4000);
